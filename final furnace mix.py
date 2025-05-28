@@ -53,7 +53,7 @@ s_min  = st.sidebar.number_input("Minimum scrap fraction",      value=0.60,  for
 
 st.sidebar.header("Power Model")
 bkwh  = st.sidebar.number_input("bkwh (kWh/heat @ 100 % scrap)", value=22800.0, step=100.0)
-kkwh  = st.sidebar.number_input("kkwh (extra kWh per +1 % sponge)", value=45.0, step=1.0)
+kkwh  = st.sidebar.number_input("kkwh (extra kWh per +1 % sponge)", value=1.5, step=1.0)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 3. HELPER FUNCTIONS
