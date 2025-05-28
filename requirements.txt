@@ -1,0 +1,7 @@
+# Core runtime packages
+streamlit>=1.34        # web UI
+numpy>=1.22            # math & RNG
+pandas>=1.5            # data frames
+scipy>=1.11            # optimiser (minimize)
+
+# (No local-only dev/packaging tools—keep Cloud build lean)
